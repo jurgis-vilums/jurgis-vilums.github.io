@@ -1,0 +1,492 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="auto apdrosinasana,auto apdrošināšana,octa apdrošināšana,octa atlaides,octa kalkulators,octa kalkulātors,auto apdrošināšanas,octa online,transportlīdzekļa apdrošināšana,nopirkt octa,octa internetā,pirkt octa,epolise,auto apdrošināšana internetā,octa salīdzināšana,lētākā octa polise,salidzini octa,salīdzināt octa,strahovka octa,octa salidzinat,letak pasam,letaka octa apdrosinasana,kad beidzas octa,visletaka octa,octa parbaude">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--<link rel="shortcut icon" href="/favicon.ico" />-->	
+        <title>OCTA.LV - izdevīga apdrošināšana</title>
+        <link rel="stylesheet" type="text/css" media="all" href="../../../css/style-1.css?10">
+		<style type="text/css" media="screen">@import url(../../../css/niceforms-default-1.css);</style>
+        <!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="all" href="/css/ie.css" /><![endif]-->
+        <script src="../../../js/main-1.php" type="text/javascript"></script>
+        <script src="../../../js/main-1.js?9" type="text/javascript"></script>
+        <script src="../../../js/html-1.js?8" type="text/javascript"></script>
+        <script src="../../../scripts/css_browser_selector-1.js" type="text/javascript"></script>
+        <script src="../../../scripts/jquery-1.3.2.min-1.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="../../../css/jquery.datepicker-1.css">
+		<link rel="stylesheet" href="../../../css/jquery.tooltip-1.css">
+		<script type="text/javascript" language="JavaScript" src="../../../scripts/jquery.bgiframe-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="../../../scripts/jquery.date-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="../../../scripts/jquery.cookie-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="../../../scripts/jquery.form-1.js"></script>
+		<script src="../../../scripts/jquery.dimensions-1.js" type="text/javascript"></script>
+		<script type="text/javascript" language="JavaScript" src="../../../scripts/jquery.tooltip.min-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="../../../scripts/niceforms-1.js"></script>
+		
+		<link rel="stylesheet" type="text/css" media="all" href="../../../css/mobile-1.css?ver=8">
+		
+		<script type="text/javascript">
+		
+		var menu_opened = false;
+		
+		function hamburger_click()
+		{
+			menu_opened = !menu_opened; 
+			document.getElementById('hamburger').className='hamburger'+(menu_opened?'_clicked':'');
+			document.getElementById('menu_container').className=menu_opened?"opening":"closing";
+			/* this fails when clicking hamburger too fast - you end up in half closed menu stuck
+			
+			setTimeout(function () {
+					//after the animation we remove set the resulting height as it was set by animation 
+					//this makes menu consistent when changing browser window between desktop and phone modes
+					//otherwise last animation repeats itself when making window small again
+					document.getElementById('menu_container').style.height=getComputedStyle(document.getElementById("menu_container")).height;
+					document.getElementById('menu_container').className='';
+			}, 1100);*/
+		}
+		
+		var body_click_func = function (sender) {
+			var menu_elems_ids = Array("hamburger", "menu_container", "menu");
+			var menu_elem_classes = Array("menu_elem_a", "hamburger_rows");
+			
+			var css_classes_found = false;
+			for (var i=0; i<menu_elem_classes.length; i++)
+			{
+				if (sender.target.className.indexOf(menu_elem_classes[i]) != -1)
+				{
+					css_classes_found = true;
+				}
+			}
+			
+			//hide menu if clicked OUTSIDE the menu
+			if (menu_opened && !menu_elems_ids.includes(sender.target.id) && !css_classes_found) 
+			{
+				hamburger_click();
+			}
+		};
+		
+		
+		</script>
+		
+		
+    </head>
+
+    <body style="overflow-y:scroll;">
+	<div id="main">
+    	<div id="left">
+			<div id="hamburger" class="hamburger" onclick="hamburger_click();">
+				<div class="hamburger_rows hamburger_top_row"></div>
+				<div class="hamburger_rows"></div>
+				<div class="hamburger_rows"></div>
+			</div>		
+        	<div id="logo">
+				<a href="../../../index.htm"><img src="../../../img/logo-1.png" class="png" alt="OCTA.LV"></a>
+            </div>
+			         <!-- Left menu -->
+							<div id="menu_container">
+	<div id="menu">
+		<a href="../../../index.htm" class="menu_elem_a">Pirkt OCTA</a>
+							<a href="../../../otxt/kas_ir_octa/index.htm" class="menu_elem_a">Kas ir OCTA</a>
+							<a href="../../../otxt/bonusmalus/index-1.htm" class="menu_elem_a">Bonus malus</a>
+							<a href="../../../otxt/sms_serviss/index.htm" class="menu_elem_a">Sms serviss</a>
+							<a href="../../../otxt/atgadinajumi/index.htm" class="menu_elem_a">Atgādinājumi</a>
+							<a href="../../../otxt/octa_pagarinasana/index.htm" class="menu_elem_a">Pagarināšana</a>
+							<a href="../../../otxt/noteikumi/index.htm" class="active  menu_elem_a">Noteikumi</a>
+							<a href="../../../otxt/parmums/index.htm" class="menu_elem_a">Par mums</a>
+				</div>
+</div>
+                    <!-- /Left menu -->
+            <div>
+            
+			
+            
+            </div>
+        </div>
+		<div class="lang">
+					<p class="css_service_links">
+					<a href="index.htm" class="css_sl_lat css_active">LV</a>
+			|		<a href="../../../rus/otxt/noteikumi/index.htm" class="css_sl_rus">RU</a>
+	</p>
+        </div>
+        <div id="top-right">
+		<div id="top-block">
+                <div class="cards">
+                </div>
+                
+		</div>
+            <!-- Content -->
+			 <div id="right">
+			 
+			 <div id="path">
+             	<div class="type-1">
+                    <div class="caption">
+                        <div>
+                           Noteikumi
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			 <div id="content">
+            	<div class="text">
+                	<b>Informācija par apdrošināšanas starpnieka darbību</b>
+<br><br>
+
+Apdrošināšanas Darbnīca, kā apdrošināšanas izplatīšanas  starpniekam, saskaņā ar Apdrošināšanas un Pārapdrošināšanas Izplatīšanas likuma 34. 35 36. un  43 panta prasībām (<a href="https://likumi.lv/ta/id/306711-apdrosinasanas-un-parapdrosinasanas-izplatisanas-likums" style="color: green;" target="_blank">likums</a>), ir pienākums par savu darbību un sniegtajiem piedāvājumiem sniegt  klientam šādu informāciju un klients piekrīt saņemt digitālā formātā tīmekļvietnē www.octa.lv
+
+<br><br>
+
+SIA „Apdrošināšanas darbnīca”, reģ, nr. 40003918394, reģistrēts komercreģistrā  25.04.2007,  turpmāk tekstā apdrošināšanas brokeris, nodrošina portāla WWW.OCTA.LV darbību.
+<b>SIA Apdrošināšanas darbnīca</b>, ir apdrošināšanas starpnieks  kas ir licencēts ar numuru  06.09.02/1149,  un atrodams Finanšu un kapitāla tirgus komisijas
+<a href="https://uzraudziba.bank.lv/tirgus-dalibnieki/apdrosinasanas-starpnieki/apdrosinasanas-brokeri/juridiska-persona/" style="color: green;" target="_blank">reģistrā</a>, turpmāk Latvijas Banka.
+
+
+<br><br>
+
+<b>Rekvizīti un kontakti</b><br>
+SIA Apdrošināšanas Darbnīca,<br>
+<b>Reģ Nr.</b> 40003918394,<br>
+<b>Juridiskā adrese</b> Braslas iela 27-14, Rīga, LV-1084.<br>
+<b>Faktiska adrese</b> Starta iela 1, Rīga, LV-1026<br>
+<b>e-pasts</b> <a href="mailto:info@adarbnica.lv" style="color: green;">info@adarbnica.lv</a><br>
+<b>Tel.</b> 20008933 
+
+<br><br>
+
+<b>Konta numuri apdrošināšanas prēmiju saņemšanai:</b><br>
+Swedbanka:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Darījumu konts Nr.:LV15HABA0551028041671<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Darījumu konts Nr.:LV11HABA0551016702443<br>
+SEB Darījumu konts, konts Nr.:LV60UNLA0050015253409<br>
+Luminor Banka Darījumu konts, konts Nr.:LV26RIKO0002013132593<br>
+Citadele banka Darījumu konts, konts Nr.:LV72PARX0015209660001
+ 
+<br><br>
+ 
+SIA Apdrošināšanas Darbnīca sniedz individualizētas rekomendācijas par pārdošanai paredzētajiem apdrošināšanas produktiem un darbojas klienta interesēs.
+
+<br><br>
+
+SIA Apdrošināšanas Darbnīca sniedz Klientam objektīvu informāciju par piedāvātajiem apdrošināšanas produktiem saprotamā veidā, lai Klients, pamatojoties uz saņemto informāciju, varētu pieņemt lēmumu. Šo informāciju SIA Apdrošināšanas Darbnīca sagatavo atbilstoši piedāvātā apdrošināšanas līguma sarežģītībai un Klienta kategorijai.
+
+<br><br>
+
+Pirms apdrošināšanas līguma noslēgšanas, SIA Apdrošināšanas Darbnīca , pamatojoties uz klienta sniegto informāciju, noskaidro klienta prasības un vajadzības, kas ir par pamatu sniegtajām konsultācijām un piedāvājumu  par attiecīgo apdrošināšanas pakalpojumu, piedāvājums tiek sniegts uz vispusīgu apdrošināšanas kompāniju piedāvājumu analīzi.
+
+<br><br>
+
+SIA Apdrošināšanas darbnīca nodrošina polišu izdošanu portālā no sekojošām kompānijām:
+<ul>
+	<li>
+		<b>AAS BALTA</b><br>
+		Reģistrācijas numurs:  40003049409<br>
+		Adrese: Raunas iela 10, Rīga, LV-1039, Latvija<br>
+		Telefons: (+371) 67522275<br>
+		E-pasts: <a href="mailto:balta@balta.lv" style="color: green;">balta@balta.lv</a><br>
+		<a href="../../../pdf/comp/IPID%20BALTA.pdf" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+ 
+	<li>
+		<b>AAS Baltijas Apdrošināšanas Nams</b><br>
+		Reģistrācijas numurs: 40003494976<br>
+		Adrese: Antonijas iela 23, Rīga, LV-1010, Latvija<br>
+		Telefons: (+371) 67080408<br>
+		E-pasts: <a href="mailto:office@ban.lv" style="color: green;">office@ban.lv</a><br>
+		<a href="../../../pdf/comp/IPID%20BAN.pdf" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+ 
+<!--
+	<li>
+		<b>AAS BTA Baltic Insurance Company</b><br>
+		Reģistrācijas numurs:  40103840140<br>
+		Adrese: Sporta 11, Rīga, LV-1013, Latvija<br>
+		Telefons: (+371) 26121212<br>
+		E-pasts: <a href="mailto:bta@bta.lv" style="color: green;">bta@bta.lv</a><br>
+		<a href="/pdf/comp/ipid-bta-octa-lv.pdf" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+	<li>
+		<b>Compensa Vienna Insurance Group ADB Latvijas filiāle</b><br>
+		Reģistrācijas numurs: 40103942087<br>
+		Adrese: Vienības gatve 87H, Rīga, LV-1004<br>
+		Telefons: (+371) 8888<br>
+		E-pasts: <a href="mailto:info@compensa.lv" style="color: green;">info@compensa.lv</a><br>
+		<a href="/pdf/comp/Compensa   IPID.pdf" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+-->
+ 
+	<li>
+		<b>ADB Gjensidige Latvijas filiāle</b><br>
+		Reģistrācijas numurs: 40103595216<br>
+		Adrese: Gustava Zemgala Gatve 74A, Rīga, LV-1039, Latvija<br>
+		Telefons: (+371) 67112222<br>
+		E-pasts: <a href="mailto:info@gjensidige.lv" style="color: green;">info@gjensidige.lv</a><br>
+		<a href="../../../pdf/comp/IPID_%20Gjensedige.PDF" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+ 
+	<li>
+		<b>ERGO Insurance SE Latvijas filiāle</b><br>
+		Reģistrācijas numurs:: 40103599913<br>
+		Adrese: Skanstes iela 50, Rīga, LV-1013, Latvija<br>
+		Telefons: (+371) 67081887<br>
+		E-pasts: <a href="mailto:info@ergo.lv" style="color: green;">info@ergo.lv</a><br>
+		<a href="../../../pdf/comp/ERGO_IPID.pdf" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+
+	<li>
+		<b>If P&C Insurance AS Latvijas filiāle</b><br>
+		Reģistrācijas numurs: 40103201449<br>
+		Adrese: Republikas laukums 2A, Rīga, LV-1010, Latvija<br>
+		Telefons: (+371) 67338333<br>
+		E-pasts: <a href="mailto:info@if.lv" style="color: green;">info@if.lv</a><br>
+		<a href="../../../pdf/comp/IF%20IPID%20.pdf" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+
+<!--
+	<li>
+		<b>Balcia Insurance SE</b><br>
+		Reģistrācijas numurs: 40003159840 <br>
+		Adrese: Krišjāņa Valdemāra iela 63, Riga, LV-1010, Latvija<br>
+		Telefons: 82222<br>
+		E-pasts:  <a href="mailto:balcia@balcia.lv" style="color: green;">balcia@balcia.lv</a><br>
+		<a href="/pdf/comp/BALCIA _IPID.pdf" style="color: green;" target="_blank">OCTA apdrošināšanas produkta informācijas dokuments</a>
+	</li>
+-->
+</ul>
+
+Pārējo kompāniju piedāvājumus var saņemt nosūtot pieprasījumu uz e-pastu <a href="mailto:octa@adarbnica.lv" style="color: green;">octa@adarbnica.lv</a>
+
+
+<br><br><br>
+
+SIA Apdrošināšanas Darbnīca  atlīdzības veids par piedāvāto apdrošināšanas līgumu ir atlīdzība (komisija) par apdrošināšanas izplatīšanu, kas ir iekļauta apdrošināšanas prēmijā un papildus samaksa netiek noteikta.<br>
+<a href="../../../komisijas_ad.pdf" style="color: green;" target="_blank">Apdrošināšanas brokera komisijas</a>
+
+<br><br>
+
+Polises un / vai polises rēķina oriģināla izdruku, kā arī informāciju par SIA Apdrošināšanas Darbnīca  darbību un piedāvātiem apdrošināšanas produktiem (tai skaitā apdrošināšanas produkta informācijas dokumentu) papīra formā ir iespējams bez maksas saņemt ierodoties personīgi SIA Apdrošināšanas Darbnīca   birojā Rīgā, Starta ielā 1 darba dienās no plkst. 9:00 līdz 18:00<br><br>
+<b>SIA Apdrošināšanas Darbnīca</b>  nav ne tiešas, ne netiešas līdzdalības, kas aptver 10 un vairāk procentu no apdrošināšanas komersanta vai ārvalsts apdrošinātāja filiāles mātes sabiedrības balsstiesīgo akciju skaita vai pamatkapitāla, nevienā apdrošināšanas komersantā vai ārvalsts apdrošinātājā, kurš izveidojis ārvalsts apdrošinātāja filiāli Latvijas Republikā.<br><br>
+Nevienam apdrošināšanas komersantam, tā mātes sabiedrībai vai ārvalsts apdrošinātājam, kurš izveidojis ārvalsts apdrošinātāja filiāli Latvijas Republikā, nav ne tiešas, ne netiešas līdzdalības <b>SIA Apdrošināšanas Darbnīca</b>, kas aptver 10 un vairāk procentu no <b>SIA Apdrošināšanas Darbnīca</b> balsstiesīgo akciju skaita vai pamatkapitāla.
+
+
+<br><br>
+<br>
+ <b>Apdrošināšanas terminu skaidrojums</b><br><br>
+Pašrisks: Pašrisks ir naudas izteiksmē vai procentos izteikta apdrošinātā objekta vērtības daļa vai laika periods (apdrošinātā objekta lietošanas pārtraukšanas gadījumā), kuru apdrošināšanas līgumā noteiktajos gadījumos apdrošinātājs atskaitīs no apdrošināšanas atlīdzības un Klientam būs jāsedz pašam.<br><br>
+Virsapdrošināšana: ja apdrošinājuma summa apdrošināšanā pret zaudējumiem un bojājumiem saskaņā ar vienu vai vairākiem apdrošināšanas līgumiem attiecībā uz vienu un to pašu apdrošināto risku pārsniedz apdrošinātā objekta vērtību (virsapdrošināšana), Klientam un apdrošinātājam ir tiesības prasīt tās samazināšanu apdrošināšanas līgumu noslēgšanas hronoloģiskā secībā, sākot no pēdējā apdrošināšanas līguma, līdz šī summa nepārsniedz apdrošinātā objekta vērtību. Ja apdrošināšanas gadījums ir iestājies, pirms notikusi apdrošinājuma summas samazināšana virsapdrošināšanas gadījumā, apdrošinātājs izmaksās Klientam apdrošināšanas atlīdzību tādā apmērā, kādā tā būtu jāizmaksā, ja apdrošinājuma summa būtu vienāda ar apdrošinātā objekta vērtību.<br><br>
+Zemapdrošināšana: ja apdrošinājuma summa apdrošināšanā pret zaudējumiem un bojājumiem saskaņā ar vienu vai vairākiem apdrošināšanas līgumiem attiecībā uz vienu un to pašu apdrošināto risku ir mazāka par apdrošinātā objekta vērtību (zemapdrošināšana), apdrošinātājs izmaksās Klientam apdrošināšanas atlīdzību tādā proporcijā, kāda ir starp apdrošinājuma summu un šo zemapdrošināšanas vērtību, ja apdrošināšanas līgumā nav paredzēts citādi.
+
+<br><br><br>
+
+ <b>Polišu apmaksas nosacījumi</b><br><br>
+
+Portālā www.octa.lv iegādātas polises ir iespējams apmaksāt izmantojot sekojošus norēķinu veidus:
+<ul>
+	<li>ar debetkartēm Maestro un Visa Elektron, ja to izdevēj banka nodrošina maksājumu veikšanu internetā;</li>
+	<li>ar kredītkartēm Mastercard un Visa, ja to izdevēj banka nodrošina maksājumu veikšanu internetā</li>
+	<li>izmantojot Luminor Banka Latvijas filiāle interneta norēķinu sistēmu (e-maksājumi)izmanotojot AS „SEB banka” interneta norēķinu sistēmas (E-link);</li>
+	<li>izmantojot AS „Swedbank” interneta norēķinu sistēmu (Bank Link);</li>
+	<li>apmaksājot izrakstīto rēķinu (rēķins tiek sagatavots elektroniski un ir derīgs bez paraksta), izmantojot jebkuras bankas norēķinu sistēmu, vai apmaksājot to kādā no banku filiālēm, vai personīgi, apmaksājot to SIA „Apdrošināšanas darbnīca” birojā Starta ielā 1, Rīgā.</li>
+</ul>
+Citai personai piederošas maksājumu kartes un/vai maksājumu kartes datu, kā arī bankas elektronisko maksājumu sistēmas nesaskaņota izmantošana ir pretlikumīga.
+
+<br><br><br>
+
+<b>Polises stāšanās spēka un piegādes nosacījumi</b><br><br>
+
+Apdrošināšanas polise stājās spēkā un klients var to lietot tikai pēc sekojošu nosacījumu izpildes:<br>
+SIA „Apdrošināšanas darbnīca” ir saņēmis apmaksu par sagatavoto polisi saskaņā ar rēķinu;<br>
+Klients ir saņēmis apstiprinājumu par polises stāšanas spēkā SMS īsziņas veidā.<br>
+Ja klients nav norādījis sava mobilā tālruņa numuru vai tehnisku iemeslu dēļ nav saņēmis īsziņu, tad tā pienākums pirms polises lietošanas ir pārliecināties par tās spēkā esamību, piezvanot uz SIA „Apdrošināšanas darbnīca” diennakts atbalsta tālruņa nr. <b style="color: green;">20008933</b> (e-pasts: <a href="mailto:octa@adarbnica.lv" style="color: green;">octa@adarbnica.lv</a>).
+
+<br><br>
+
+Klientam ir iespēja izvēlēties sev ērtāko iegādātās polises piegādes veidu. SIA „Apdrošināšanas darbnīca” piedāvā sekojošus polišu piegādes veidus:<br>
+<ul>
+	<li>Piegāde elektroniskā veidā – nosūtot uz klienta norādīto e-pasta adresi polises un rēķina elektronisko kopiju;</li>
+	<li>Nosūtīšana pa faksu – nosūtot uz klienta norādīto faksa numuru polises un rēķina kopijas;</li>
+	<li>Piegāde pa pastu – nosūtot vēstules veidā uz klienta norādīto adresi polises un rēķina oriģinālus (pakalpojuma cena EUR 3.00);</li>
+	<li>Piegādājot personīgi – piegādājot polises un rēķina oriģinālu personīgi ar kurjera starpniecību (pakalpojuma cena Rīgas robežās EUR 7.11);</li>
+	<li>Saņemot SIA „Apdrošināšanas darbnīca” birojā – personīgi saņemt apdrošināšanas brokera birojā Starta ielā 1, Rīgā (darba laiks darba dienās no plkst 9.00 līdz 18.00).</li>
+	<li>Informāciju par polises stāšanos spēkā var pārbaudīt <a href="https://services.ltab.lv/lv/CheckOcta" style="color: green;" target="_blank">šeit</a></li>
+</ul>
+
+<b>Atbildība</b>
+<br><br>
+<b>SIA Apdrošināšanas Darbnīca</b> nav atbildīgs par zaudējumiem, tajā skaitā materiālajiem, kas ir radušies vai var rasties nākotnē Klientam un/vai transporta līdzekļa īpašniekam un/vai tiesīgajam lietotājam un/vai jebkurai trešajai personai:
+<ul>
+	<li>sakarā ar zaudējumiem mantai un/vai veselībai , kā arī  morālajiem;</li>
+	<li>kas ir saistīti ar tehniskajām kļūdām un/vai programmnodrošinājuma darbības traucējumiem, tai skaitā, bet neierobežojot, ar Ceļu Satiksmes Drošības Direkcijas, Latvijas Transportlīdzekļu Apdrošinātāju Biroja, Apdrošināšanas sabiedrību, Maksājumu apstrādes sistēmu un/vai programmnodrošinājuma darbības traucējumiem;</li>
+	<li>kas ir radušies Klientam ievadot kļūdainu, neprecīzu, nepareizu vai maldinošu informāciju;</li>
+	<li>kas ir radušies lietotājam norādot nepareizu OCTA polises spēkā stāšanās datumu;</li>
+	<li>par zaudējumiem, kas var rasties Klientam, transportlīdzekļa īpašniekam vai tiesīgajam lietotājam sakarā ar pasūtītās apdrošināšanas polises laicīgu neapmaksāšanu, vai nestāšanos spēkā noteiktā termiņā.</li>
+</ul>
+Ja Jums ir mainījies transportlīdzekļa reģistrācijas apliecība, lūdzam pasūtīt atgādinājumu no jauna un informēt SIA Apdrošināšanas Darbnīca e-pastā <a href="mailto:octa@adarbnica.lv" style="color: green;">octa@adarbnica.lv</a> , pretējā gadījumā  OCTA.lv  uzskata, ka transportlīdzeklis ir pārdots un pārtrauc atgādinājumu izsūtīšanu.
+
+<br><br><br>
+
+<b>Konfidencialitāte</b><br><br>
+
+Informācija, kas iegūta par apdrošināšanas portāla lietotāju, tai skaitā personas dati, kontaktinformācija, kā arī apdrošināmā dati netiks izpausti trešai pusei, izņemot apdrošināšanas sabiedrībām piedāvājumu sagatavošanai, kā arī paredzētajos gadījumos.
+
+<br><br>
+
+Norādot savu kontaktinformāciju portālā, klients piekrīt saņemt atgādinājumus par polišu termiņa beigām un aktuālos piedāvājumus polišu pagarināšanai, kā arī informāciju par izmaiņām un aktualitātēm portālā.
+
+<br><br><br>
+
+<b>Īpašuma tiesības</b>
+<br><br>
+Visas intelektuālās īpašuma tiesības, kas attiecās uz portālu www.octa.lv pieder tikai un vienīgi SIA „Apdrošināšanas darbnīca”.
+<br><br>
+Portāla satura un datu pavairošana, izplatīšana un uzglabāšana, kā arī lietošana komerciālos nolūkos bez SIA „Apdrošināšanas darbnīca” piekrišanas ir aizliegta un sodāma LR normatīvajos aktos paredzētajā kārtībā.
+
+<br><br><br>
+
+
+<b>Strīdu izskatīšanas kārtība un sūdzību izskatīšanas procedūra</b><br><br>
+
+Jebkurš SIA Apdrošināšanas Darbnīca klients var iesniegt sūdzību minētajā kārtībā:<br>
+<a href="../../../pdf/S%C5%ABdz%C4%ABbas_2019.pdf" style="color: green;" target="_blank"><b>Sūdzību izskatīšanas procedūra</b></a>
+<br><br>
+
+Visi strīdi, kas radušies saistībā ar portāla lietošanu un tā lietošanas noteikumiem tiek risināti pārrunu ceļā. Gadījumā, ja šādu pārrunu rezultātā nav iespējams panākt mierizlīgumu, strīdi tiek risināti LR normatīvajos aktos  paredzētajā kārtībā.
+
+                </div>
+            </div>
+			
+			</div>
+			<div class="clear"></div>
+				
+
+            <!-- /Content --></div>
+        <div class="clear"></div>
+        <div id="footer" style="padding-left:0px; height:60px">
+			  <div class="FLeft" style="margin-left:2px; margin-right:35px; font-size:10px">
+        	Pakalpojumu nodrošina
+                
+					<a style="margin-left: 20px; display: none;">Paziņot par kļūdu</a>
+					<br> Apdrošināšanas darbnīca<br>
+					V1.3, 13.07.2022<br>
+					
+					
+					<a href="../../../pdf/S%C4%ABkdat%C5%86u_politika_AD_2019-5-16_upd-1.pdf" target="_blank">Sīkdatņu politika</a>
+					 | 
+					<a href="../../../pdf/Privatuma_Politika_2019-5-16-1.pdf" target="_blank">Privātuma politika</a>
+					
+					<br>
+					<!-- puls.lv START //-->
+					<div id="_puls.lv_23245" style="display:inline-block;"></div>
+					<script type="text/javascript">var _puls_counter_id = 23245;</script>
+					<script async="" src="//hits.puls.lv/?sid=23245&js=1" type="text/javascript"></script>
+					<noscript>
+					<a href="http://puls.lv/" target="_blank"><img src="//hits.puls.lv/?sid=23245&jsver=0" border="0" alt="PULS.LV Professional rating system"></a>
+					</noscript>
+					<!-- puls.lv END //-->
+					
+					<!-- europuls.eu START //-->
+					<div id="_europuls.eu_4523" style="display:inline-block;"></div>
+					<script type="text/javascript">var _europuls_counter_id = 4523;</script>
+					<script async="" src="//hits.europuls.eu/?sid=4523&js=1" type="text/javascript"></script>
+					<noscript>
+					<a href="http://europuls.eu/" target="_blank"><img src="//hits.europuls.eu/?sid=4523&jsver=0" border="0" alt="Europuls.eu - Catalog of the European Internet resources"></a>
+					</noscript>
+					<!-- europuls.eu END //-->
+				
+				</div>
+				<div class="FLeft" style="margin-bottom:10px; margin-right:30px; height:60px">
+					<a href="../../../feedback/index.htm">Atstāt atsauksmi</a>
+				</div>	
+				<div class="FLeft" style="margin-top: 2px;height:60px">
+					<img alt="Visa" src="../../../img/visa-1.jpg">
+					<!--<img alt="Visa Electron" src="/img/klikelectron.gif"/>-->
+					<img alt="Maestro" src="../../../img/maestro-1.jpg">
+					<img alt="MasterCard" src="../../../img/mastercard-1.jpg">
+					<img alt="Swedbank" src="../../../img/ps_3-1.gif">
+					
+					<img alt="SEB" src="../../../img/seb2-1.png">
+					<img alt="Citadele" src="../../../img/citadele_logo-1.gif" width="91" height="24">
+					<img alt="Luminor (Nordea/DnB)" src="../../../img/luminor_2-1.png" width="78" height="24">
+					
+				</div>				
+        </div>
+    </div>
+    <div id="stylesheetTest"></div> 
+
+<!--cookie==============[-->
+<style>
+#cookie_policy { background-color: rgba(80,80,80,.9); position: fixed; z-index: 1000; bottom: 0px; left: 0px; width: 100%; text-align: center; }
+#cookie_policy > div { display: inline-block; margin: 40px 0px; max-width: 760px; text-align: left; }
+#cookie_policy > div, #cookie_policy > div * { color: white; font-size: 16px; letter-spacing: 2px; }
+</style>
+<div style="display: none;" id="cookie_policy">
+	<div border="0" cellpadding="0" cellspacing="0" style="">
+		<div class="submit-1" onclick="_cookie_policy(true);" style="cursor: pointer; float: right; margin: 0px 0px 10px 10px;">
+			<div class="left"></div>
+			<div class="center">
+				<input style="font-weight: normal;" type="submit" value="Piekrītu" onclick="_cookie_policy(true); event.cancelBubble = true; return false;">
+			</div>
+			<div class="right"></div>
+		</div>
+		<script>
+		(function(){
+			var txt = 'Mēs izmantojam sīkdatnes, lai nodrošinātu jums ērtāku un drošāku lietošanas pieredzi. Turpinot pārlūka sesiju vai nospiežot pogu "Piekrītu", jūs apstiprināt, ka piekrītat izmantot sīkdatnes. Jūs varat atcelt savu piekrišanu jebkurā laikā, mainot pārlūka iestatījumus un izdzēšot saglabātās sīkdatnes. Iepazīstieties ar mūsu :LINK:sīkdatņu izmantošanas politiku:LINK:.';
+			txt = txt.replace( /:LINK:(.+):LINK:/, '<a href="/pdf/Sīkdatņu_politika_AD_2019-5-16_upd.pdf" target="_blank"><b>$1</b></a>' );
+			document.write( txt );
+		})();
+		</script>
+	</div>
+</div>
+<script>
+_cookie_policy();
+function _cookie_policy(accept) {
+	var policy_name = 'cookie_policy';
+	var policy_ver = 1;
+	if( accept == null ) accept = (new RegExp( policy_name+'='+policy_ver )).test( document.cookie );
+	
+	document.getElementById( 'cookie_policy' ).style.display = accept ? 'none' : '';
+	if( accept ) setcookie( policy_name, policy_ver, strtotime( '+10 years' ) );
+}
+</script>
+<!--=================]-->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11352935-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<div id="phone_mode_indicator"></div>
+<script type="text/javascript">
+
+var evnt_func = function () {
+
+	var btn = document.getElementById("btns_frm");
+	var c_box = document.getElementById("c_box_frm");
+		
+	if (typeof btn != "undefined" && typeof c_box != "undefined" && btn != null && c_box != null)
+	{
+		if (getComputedStyle(document.getElementById("phone_mode_indicator")).left == "10px")
+		{
+			btn.parentNode.insertBefore(c_box, btn);
+		}
+		else if (getComputedStyle(document.getElementById("phone_mode_indicator")).left == "100px")
+		{
+			btn.parentNode.insertBefore(c_box, btn.nextSibling);
+		}
+	}
+
+};
+
+window.addEventListener("load", evnt_func);
+window.addEventListener("resize", evnt_func);
+window.document.body.addEventListener("click", body_click_func);
+
+</script>
+      	</body>
+</html>

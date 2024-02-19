@@ -1,0 +1,10 @@
+<svg viewBox="0 0 130 100" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="top_down_gradient" >
+			<stop offset="0%" stop-color="#279939" />
+			<stop offset="100%" stop-color="#40bb5b" />
+		</linearGradient>
+	</defs>
+	<polygon points="0,0 0,100 130,100 130,0" fill="white" stroke="black"/>
+	<polygon points="0,0 0,100 50,50" fill="url('#top_down_gradient')" stroke="url('#top_down_gradient')"/>
+</svg>

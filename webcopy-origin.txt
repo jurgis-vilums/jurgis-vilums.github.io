@@ -1,0 +1,484 @@
+Uri: https://www.octa.lv/
+File Name: C:\Downloaded Web Sites\www.octa.lv\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/css/csshover.htc
+File Name: C:\Downloaded Web Sites\www.octa.lv\css\csshover.htc
+Content Type: text/x-component
+
+Uri: https://www.octa.lv/css/jquery.datepicker.css
+File Name: C:\Downloaded Web Sites\www.octa.lv\css\jquery.datepicker-1.css
+Content Type: text/css
+
+Uri: https://www.octa.lv/css/jquery.tooltip.css
+File Name: C:\Downloaded Web Sites\www.octa.lv\css\jquery.tooltip-1.css
+Content Type: text/css
+
+Uri: https://www.octa.lv/css/mobile.css?ver=8
+File Name: C:\Downloaded Web Sites\www.octa.lv\css\mobile-1.css
+Content Type: text/css
+
+Uri: https://www.octa.lv/css/niceforms-default.css
+File Name: C:\Downloaded Web Sites\www.octa.lv\css\niceforms-default-1.css
+Content Type: text/css
+
+Uri: https://www.octa.lv/css/png.htc
+File Name: C:\Downloaded Web Sites\www.octa.lv\css\png.htc
+Content Type: text/x-component
+
+Uri: https://www.octa.lv/css/style.css?10
+File Name: C:\Downloaded Web Sites\www.octa.lv\css\style-1.css
+Content Type: text/css
+
+Uri: https://www.octa.lv/feedback/
+File Name: C:\Downloaded Web Sites\www.octa.lv\feedback\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/feedback/scode/?1708218113
+File Name: C:\Downloaded Web Sites\www.octa.lv\feedback\scode\index.htm
+Content Type: image/png
+
+Uri: https://www.octa.lv/feedback/scode/?1708218128
+File Name: C:\Downloaded Web Sites\www.octa.lv\feedback\scode\index-1.htm
+Content Type: image/png
+
+Uri: https://www.octa.lv/feedback/scode/?1708218129
+File Name: C:\Downloaded Web Sites\www.octa.lv\feedback\scode\index-2.htm
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/bg.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\bg.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/big-block.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\big-block.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/block-2-down.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\block-2-down.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/block-2-top.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\block-2-top.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/block.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\block.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/green_center.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\green_center.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/green_left.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\green_left.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/green_right.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\green_right.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/b.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\b.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/bbg.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\bbg.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/bl.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\bl.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/br.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\br.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/l.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\l.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/lbg.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\lbg.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/r.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\r.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/rbg.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\rbg.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/t.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\t.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/tl.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\tl.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/blocks/popup_body/tr.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\blocks\popup_body\tr.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/bottom.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\bottom.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/buttons/center.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\buttons\center.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/buttons/left.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\buttons\left.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/buttons/right.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\buttons\right.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/citadele_logo.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\citadele_logo-1.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/green-active.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\green-active.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/green-block.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\green-block.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/green-car.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\green-car.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/green-clock.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\green-clock.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/green-hand.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\green-hand.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/line-active.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\line-active.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/line.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\line.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/logo.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\logo-1.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/luminor_2.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\luminor_2-1.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/maestro.jpg
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\maestro-1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.octa.lv/img/mastercard.jpg
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\mastercard-1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.octa.lv/img/menu-active.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\menu-active.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/menu-normal.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\menu-normal.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/path-1.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\path-1.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/path-2.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\path-2.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/path-main.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\path-main.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/path-type-2.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\path-type-2.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/path-type-3.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\path-type-3.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/path-type-4.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\path-type-4.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/path_current.svg
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\path_current.svg
+Content Type: image/svg+xml
+
+Uri: https://www.octa.lv/img/point.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\point.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/ps_3.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\ps_3-1.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/seb2.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\seb2-1.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/select_right.gif
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\select_right.gif
+Content Type: image/gif
+
+Uri: https://www.octa.lv/img/submit-1-left.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-1-left.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-1-patt.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-1-patt.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-1-right.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-1-right.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-2-left.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-2-left.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-2-patt.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-2-patt.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-2-right.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-2-right.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-3-left.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-3-left.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-3-patt.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-3-patt.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/submit-3-right.png
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\submit-3-right.png
+Content Type: image/png
+
+Uri: https://www.octa.lv/img/visa.jpg
+File Name: C:\Downloaded Web Sites\www.octa.lv\img\visa-1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.octa.lv/js/html.js?8
+File Name: C:\Downloaded Web Sites\www.octa.lv\js\html-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/js/main.js?9
+File Name: C:\Downloaded Web Sites\www.octa.lv\js\main-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/js/main.php
+File Name: C:\Downloaded Web Sites\www.octa.lv\js\main-1.php
+Content Type: application/x-javascript
+
+Uri: https://www.octa.lv/komisijas_ad.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\komisijas_ad.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/lat/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/feedback/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\feedback\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/otxt/atgadinajumi/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\otxt\atgadinajumi\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/otxt/bonusmalus/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\otxt\bonusmalus\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/otxt/kas_ir_octa/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\otxt\kas_ir_octa\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/otxt/noteikumi/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\otxt\noteikumi\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/otxt/octa_pagarinasana/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\otxt\octa_pagarinasana\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/otxt/parmums/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\otxt\parmums\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/lat/otxt/sms_serviss/
+File Name: C:\Downloaded Web Sites\www.octa.lv\lat\otxt\sms_serviss\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/otxt/atgadinajumi/
+File Name: C:\Downloaded Web Sites\www.octa.lv\otxt\atgadinajumi\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/otxt/bonusmalus/
+File Name: C:\Downloaded Web Sites\www.octa.lv\otxt\bonusmalus\index-1.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/otxt/kas_ir_octa/
+File Name: C:\Downloaded Web Sites\www.octa.lv\otxt\kas_ir_octa\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/otxt/noteikumi/
+File Name: C:\Downloaded Web Sites\www.octa.lv\otxt\noteikumi\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/otxt/octa_pagarinasana/
+File Name: C:\Downloaded Web Sites\www.octa.lv\otxt\octa_pagarinasana\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/otxt/parmums/
+File Name: C:\Downloaded Web Sites\www.octa.lv\otxt\parmums\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/otxt/sms_serviss/
+File Name: C:\Downloaded Web Sites\www.octa.lv\otxt\sms_serviss\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/pdf/Broker_un_paligu_tabula.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\Broker_un_paligu_tabula.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/comp/ERGO_IPID.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\comp\ERGO_IPID.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/comp/IF IPID .pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\comp\IF IPID .pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/comp/IPID BALTA.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\comp\IPID BALTA.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/comp/IPID BAN.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\comp\IPID BAN.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/comp/IPID_ Gjensedige.PDF
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\comp\IPID_ Gjensedige.PDF
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/Privatuma_Politika_2019-5-16.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\Privatuma_Politika_2019-5-16-1.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/Sīkdatņu_politika_AD_2019-5-16_upd.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\Sīkdatņu_politika_AD_2019-5-16_upd-1.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/pdf/Sūdzības_2019.pdf
+File Name: C:\Downloaded Web Sites\www.octa.lv\pdf\Sūdzības_2019.pdf
+Content Type: application/pdf
+
+Uri: https://www.octa.lv/rus/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/feedback/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\feedback\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/otxt/atgadinajumi/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\otxt\atgadinajumi\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/otxt/bonusmalus/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\otxt\bonusmalus\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/otxt/kas_ir_octa/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\otxt\kas_ir_octa\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/otxt/noteikumi/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\otxt\noteikumi\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/otxt/octa_pagarinasana/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\otxt\octa_pagarinasana\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/otxt/parmums/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\otxt\parmums\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/rus/otxt/sms_serviss/
+File Name: C:\Downloaded Web Sites\www.octa.lv\rus\otxt\sms_serviss\index.htm
+Content Type: text/html
+
+Uri: https://www.octa.lv/scripts/classy.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\classy.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/countdown.class.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\countdown.class.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/css_browser_selector.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\css_browser_selector-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery-1.3.2.min.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery-1.3.2.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.bgiframe.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.bgiframe-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.cookie.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.cookie-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.date.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.date-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.delay.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.delay.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.dimensions.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.dimensions-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.form.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.form-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.intervals.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.intervals.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/jquery.tooltip.min.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\jquery.tooltip.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.octa.lv/scripts/niceforms.js
+File Name: C:\Downloaded Web Sites\www.octa.lv\scripts\niceforms-1.js
+Content Type: application/javascript
+

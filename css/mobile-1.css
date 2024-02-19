@@ -1,0 +1,895 @@
+/*  CSS file for adapting the site to phones */
+
+a.menu_elem_a
+{
+	/* do not remove, used in JS ;)*/
+}
+
+div.hamburger, div.hamburger_clicked
+{
+	width:36px;
+	height:36px;
+	float:left;
+	box-sizing: border-box;
+
+	background-image: linear-gradient(to bottom right, #90e29e, #046012);
+	
+	border-radius:10px;
+	padding:0px 0px 0px 0px;
+	margin-right:3px;
+	margin-left:1px;
+	
+	z-index: 10;
+	
+}
+
+div.hamburger_clicked
+{
+	background-image: linear-gradient(to bottom right, #046012, #90e29e);
+}
+
+div.hamburger_rows
+{
+	width:23px;
+	border-top:solid #0b3111 1px;
+	border-bottom:solid #0b3111 1px; 
+	padding-top:0px;
+	border-radius:1px; 
+	margin-left:6px; 
+	margin-top:5px;
+}
+
+div.hamburger_top_row
+{
+	margin-top:9px;
+}
+
+#top-block
+{
+	z-index:1;
+}
+
+div.lang
+{
+	position: relative;
+	z-index:100;
+}
+
+#big-block-car-img, #big-block-clock-img, #big-block-hand-img
+{
+	display:none;
+}
+
+@media only screen and (max-width: 800px) 
+{
+	* 
+	{
+		font-size:20px !important;
+		line-height:22px !important;
+		
+	}
+	
+	
+	#footer
+	{
+		padding-left:10px !important;
+		box-sizing:border-box;
+	}
+
+	div#menu
+	{
+		margin-left:2px;
+		position: absolute;
+		bottom:10px;
+	    z-index: 100;
+	    background-color: rgb(148, 191, 151);
+		border: 4px solid rgb(148, 191, 151);
+		border-bottom: 0px solid rgb(148, 191, 151);
+		border-radius: 5px;
+		box-shadow: rgba(157, 185, 147, 0.5) 10px 10px 5px;
+		
+		width: 190px;
+	}
+	
+	div#menu a.menu_elem_a
+	{
+		background:#dcdcdb;
+		border-radius:5px;
+	}
+
+	div#menu a.active
+	{
+		background:linear-gradient(to bottom, #269838, #44bb58);
+	}
+	
+	#menu_container
+	{
+		position:absolute;
+		height:0px;
+		top:83px;
+		left:1px;
+		width:210px;
+		overflow:hidden;
+		display:block;
+		z-index: 1100;
+	}
+	
+	@keyframes open_menu
+	{
+		from {height: 0px}
+		to {height: 352px}
+	}	
+	
+	@keyframes close_menu
+	{
+		from {height: 352px}
+		to {height: 0px}
+	}	
+	
+	#menu_container.opening
+	{
+		animation-name: open_menu;
+		animation-duration: 500ms;
+		animation-iteration-count: 1;
+		animation-fill-mode:forwards;
+	}
+	
+	#menu_container.closing
+	{
+		animation-name: close_menu;
+		animation-duration: 200ms;
+		animation-iteration-count: 1;
+		animation-fill-mode:forwards;
+	}
+	
+
+	
+	div#left
+	{
+		width: 250px;
+	}
+	
+	div#top-right
+	{
+		width: 100%;
+	}
+	
+	#main
+	{
+		width: 100%;
+	}
+	
+	#content
+	{
+		padding-right:10px;
+		margin-left:2px;
+	}
+	
+	#top-block
+	{
+		display:none;
+		position:static;
+		margin-top: 5px;
+		z-index:1;
+	}
+	
+	div.lang
+	{
+		padding-top:10px;
+		margin-right:20px;
+		z-index:100;
+		position: static;
+	}
+	
+	#path, #path div.type-1, #path div.type-2, #path div.type-3
+	{
+		padding-left:2px;
+		background:none;
+		width:100%;
+	}
+	
+	#path
+	{
+		width:90%;
+	}
+	
+	#path div.type-1
+	{
+		height:unset;
+	}
+	
+	#path div.type-2
+	{
+		height:unset;
+	}
+	
+	#path div.type-3
+	{
+		height:unset;
+	}
+	
+	
+	#path div.type-2 div.part-1, #path div.type-2 div.part-2, #path div.type-2 div.part-3, 
+	#path div.type-3 div.part-1, #path div.type-3 div.part-2, #path div.type-3 div.part-3,
+	#path div.type-1 div.caption
+	{
+		float:none;
+		background:none;
+		padding-left:10px;
+		border-radius:10px;
+		width:90%;
+		max-width:300px;
+		margin-bottom:2px;
+		font-size:18px !important;
+	}
+	
+	#path div.type-2 div.part-1
+	{
+		background-image:  url("../img/path_current.svg"), linear-gradient(to bottom, #279939, #40bb5b);
+		background-repeat: no-repeat;
+		background-origin: border-box;
+		background-position: right 0px;
+		border:solid #A0D0A0 1px;
+	}
+	
+	#path div.type-3 div.part-1
+	{
+		background-image:  linear-gradient(to bottom, #279939, #40bb5b);
+		background-repeat: no-repeat;
+		background-origin: border-box;
+		background-position: right 0px;
+		border:solid #A0D0A0 1px;
+		font-weight:bold;
+	}
+	
+	#path div.type-3 div.part-2
+	{
+		background-image:  url("../img/path_current.svg"), linear-gradient(to bottom, #279939, #40bb5b);
+		background-repeat: no-repeat;
+		background-origin: border-box;
+		background-position: right 0px;
+		border:solid #A0D0A0 1px;
+	
+	}	
+	
+	#path div.type-2 div.part-2, #path div.type-2 div.part-3, 
+	#path div.type-3 div.part-3,
+	#path div.type-1 div.caption
+	{
+		background:none;
+		background-color: white;
+		border:solid #A0D0A0 1px;
+	
+	}
+	
+	#path div.type-1 div.caption
+	{
+		background-image:  url("../img/path_current.svg"), linear-gradient(to bottom, #279939, #40bb5b);
+		background-repeat: no-repeat;
+		background-origin: border-box;
+		background-position: right 0px;
+		border:solid #A0D0A0 1px;
+	
+	}		
+	
+	#path .caption div
+	{
+		background:none;
+	}
+	
+	#calculator
+	{
+		width:100%;
+		height:auto;		
+	}
+	
+	#calculator *
+	{
+		float: left;
+	}
+	
+	#calculator div.padder
+	{
+		background: url("../img/block.png") left top no-repeat;
+		background-size: 100% 100%;
+		background-clip:border-box;
+		border: solid #cacdd010 1px;
+		border-radius:10px;
+		max-width:547px;
+		margin-bottom:7px;
+		background-size: cover;
+	}
+	
+	#calculator .caps
+	{
+		width:95%;
+	}
+	
+	#privdata_text
+	{
+		float:left;
+		padding:10px 10px 10px 10px;
+		max-width:575px;
+		background-image:  linear-gradient(to bottom, #f9e0bf, #f9e0bf);
+		background-repeat: no-repeat;
+		background-origin: border-box;
+		border-radius:10px;
+		margin-top:5px  !important;
+		margin-bottom:10px  !important;
+		box-sizing:border-box;
+		
+	}
+	
+	#privdata_text div
+	{
+		width:100% !important;
+		clip:unset !important;
+	}
+	
+	#big-block
+	{
+		float:left;
+		max-width:575px;
+		height:unset;
+		min-height: 278px;
+		background:none;
+	}
+	
+	#big-block div.element
+	{
+		height:unset;
+		min-height: 80px;
+		background:linear-gradient(to bottom, #ffffff, #f5f5f5);;
+		border:solid #d4d4d4 1px;
+		border-radius:10px;
+	}
+	
+	#big-block div#big-block-car
+	{
+		border:solid #e8e8e8 1px;
+		padding-bottom:10px;
+		position:relative;
+	}
+	
+	#big-block div#big-block-clock
+	{
+		border:solid #e8e8e8 1px;
+		position:relative;
+		top:-6px;
+		padding-bottom:10px;
+	}
+	
+	#big-block div#big-block-hand
+	{
+		border:solid #e8e8e8 1px;
+		position:relative;
+		top:-12px;
+		padding-bottom:10px;
+	}
+	
+	#big-block-car-img, #big-block-clock-img, #big-block-hand-img
+	{
+		display:block;
+		position:absolute;
+		left:17px;
+		top:20px;
+	}
+	
+	#big-block-clock-img
+	{
+		left:25px;
+	}
+	
+	#big-block-hand-img
+	{
+		left:26px;
+	}
+	
+	table.caps tr td 
+	{
+		margin-bottom:5px;
+	}
+	
+	table.caps tr td div.caption
+	{
+		width: 240px;
+	}
+	
+	#mf_1, #mf_2
+	{
+		width:100% !important;
+		max-width:250px;
+	}
+	
+	
+	#bonus-malus-div
+	{
+		float:left;
+		margin-bottom:5px;	
+		max-width:575px;
+		margin-left:2px;
+		height:auto;
+		font-size:14px !important;
+	}
+	
+	#bonus-malus-div *
+	{
+		font-size:16px !important;
+	}
+	
+	#bm_tbl_td1, #bm, #bm_tbl_td4, #ins_before
+	{
+		background:none !important;
+		background-color:#e9e9e9 !important;
+	}	
+	
+	#bm_tbl_td1
+	{
+		border-radius:10px 0px 0px 10px;
+	}
+	
+	#bm
+	{
+		border-radius:0px 10px 10px 0px;
+	}
+	
+	#bm_tbl_td4
+	{
+		border-radius:10px 0px 0px 10px;
+	}
+	
+	#ins_before
+	{
+		border-radius:0px 10px 10px 0px;
+	}
+				
+	
+	#ins_before
+	{
+		font-size:14px !important;
+	}
+	
+	#reminder_text_block
+	{
+		float:left;
+		width:90% !important;
+	}
+	
+	#block
+	{
+		float:left;
+		width:100%;
+		margin-bottom:10px;
+		margin-left:2px;
+		border: solid #eadc78 0px;
+		border-radius:10px;
+		background-size: 100% 100%;
+	}
+	
+	div.bottom div
+	{
+		display:none;
+	}
+	
+	#reminder_form
+	{
+		max-width:575px;
+	}
+	
+	#reminder_form div.form
+	{
+		float:left;
+		margin-top:10px;
+		
+	}
+		
+		
+	#btns_frm
+	{
+		margin-top:5px;
+	}
+		
+	
+	
+}
+
+@media only screen and (min-width: 800px) 
+{
+
+	
+	div#hamburger
+	{
+		display: none
+	}
+	
+	div.lang
+	{
+		margin-top:-25px
+	}
+	
+	
+}			
+
+#phone_mode_indicator
+{
+	display:none;
+	left:100px;
+}
+
+#price_table_head_lbl_desktop	
+{
+	display: table-cell;
+}
+
+#price_table_head_lbl_phone
+{
+	display: none;	
+}
+
+td.company_name_left
+{
+	display:table-cell;
+}
+
+tr.company_name_top
+{
+	display:none;
+}
+
+@media only screen and (max-width: 800px) 
+{
+	#phone_mode_indicator
+	{
+		display:none;
+		left:10px;
+	}
+	
+	#c_box_frm
+	{
+		display:block;
+		width:100%;
+	}
+	
+	#c_box_frm *
+	{
+		float:none;
+	}		
+
+	#price_table_head_lbl_desktop	
+	{
+		display: none;
+	}
+	
+	#price_table_head_lbl_phone
+	{
+		display: table-row;
+	}
+	
+	#price_table_head_lbl_phone td
+	{
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+
+	#price_table_head
+	{
+		height:unset;
+		max-width:575px;
+		margin-left:2px;
+		background-size: 100% 100%;
+		font-size:10px !important;
+	}
+	
+	#price_table_head *
+	{
+		font-size:16px !important;
+	}
+	
+	td.company_name_left
+	{
+		display:none;
+	}
+	
+	tr.company_name_top
+	{
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:5px;
+		display:table-row;
+		font-size:14px;
+		color:#0080A0;
+		
+	}
+	
+	#price_results_div
+	{
+		margin-left:2px;
+		font-size:18px !important;
+		height:370px !important;
+	}
+	
+	#price_results_div div.element 
+	{
+		border:solid white 0px;
+		border-radius:10px;
+		width:100% !important;
+		max-width:575px;
+	}
+	
+	#price_results_div *
+	{
+		font-size:18px !important;
+	}
+	
+	
+	#green-block
+	{
+		border:solid white 0px;
+		border-radius:10px;
+		width:100% !important;
+		max-width:575px;
+		
+		background-image:   linear-gradient(to bottom, #279939, #40bb5b);
+		background-repeat: no-repeat;
+		background-origin: border-box;
+		background-position: right 0px;
+		
+		float:left;
+		height:unset;
+	}
+	
+	
+	#green-block div.simple
+	{
+		float:left;
+		width:100%;
+		padding-top:0px;
+		
+	}
+	
+	#green-block div.simple div.part-1
+	{
+		width:140px;
+		font-size:14px;
+		margin-bottom:10px;
+		padding-top:18px;
+	}
+	
+	#green-block div.simple div.PRelative
+	{
+		float:left;
+	}		
+	
+	#green-block div.simple div.PRelative #all_offers
+	{
+		float:left;
+		position:unset;
+		width:unset !important;
+	}		
+	
+	
+	#form_request, #form_request *
+	{
+		float:left;
+	}
+	
+	#tdPolicy input, #tdPolicy label, #tdPolicy a,
+	div.right-part div.checkbox input, div.right-part div.checkbox label
+	{
+		float:none !important;
+	}
+			
+	
+	#green-block-under
+	{
+		width:100%;
+		max-width:575px;
+		border:solid white 0px;
+		border-radius:10px;
+		box-sizing:border-box;
+	}
+	
+	#green-block-under .element 
+	{
+		padding-left:13px;
+		padding-right:15px;
+		width:100%;
+		border-bottom-width: 0px;
+		box-sizing:border-box;
+	}
+	
+	#green-block-under .element .left-part
+	{
+		padding-left: 0px;
+	}
+	
+	#green-block-under .element .right-part 
+	{
+		padding-left: 5px;
+		padding-right: 10px;
+		width:100%;
+		box-sizing:border-box;
+		max-width:305px;
+	}
+	
+	#green-block-under .element .right-part input, #green-block-under .element .right-part select
+	{
+		width:100%;
+		margin-right:5px;
+		box-sizing:border-box;
+	}
+	
+	#green-block-under .element .right-part textarea
+	{
+		width:100% !important;
+	}
+	
+	
+	#green-block-under div.PRelative
+	{
+		display:none;
+	}
+	
+	div.element div.right-part div.checkbox 
+	{
+		white-space: normal !important;
+	}
+	
+	div.user_type_radio_div
+	{
+		float:left;
+		margin-top:3px;
+	}
+	
+	div.user_type_radio_div input 
+	{
+		margin-right:2px;
+	}
+
+	#divPriceban, #divPricebalta, 
+	#divPriceergo, #divPricegjensedige,
+	#divPriceifsoap, #divPricebalcia
+	{
+		height:50px;
+		background:none;
+		background-color:#e9e9e9 !important;
+		border-radius:10px !important;
+		padding-bottom:10px;		
+	}
+	
+	#divPriceban tr, #divPricebalta tr, 
+	#divPriceergo tr, #divPricegjensedige tr,
+	#divPriceifsoap tr, #divPricebalcia tr
+	{
+		background:none !important;
+	}	
+	
+	#price_1_ban, #price_3_ban, #price_6_ban, #price_9_ban, #price_12_ban,
+	#price_1_ergo, #price_3_ergo, #price_6_ergo, #price_9_ergo, #price_12_ergo,
+	#price_1_balta, #price_3_balta, #price_6_balta, #price_9_balta, #price_12_balta,
+	#price_1_gjensedige, #price_3_gjensedige, #price_6_gjensedige, #price_9_gjensedige, #price_12_gjensedige,
+	#price_1_ifsoap, #price_3_ifsoap, #price_6_ifsoap, #price_9_ifsoap, #price_12_ifsoap,
+	#price_1_balcia, #price_3_balcia, #price_6_balcia, #price_9_balcia, #price_12_balcia
+	{
+		border:solid #0080A0 1px !important;
+		text-align:center;
+		padding-left:0px !important;
+	}	
+	
+	price_right_12_gjensedige
+	
+	#price_right_1_ban, #price_right_1_ergo, #price_right_1_balta, 
+	#price_right_1_gjensedige, #price_right_1_ifsoap, #price_right_1_balcia,
+	#price_right_3_ban, #price_right_3_ergo, #price_right_3_balta, 
+	#price_right_3_gjensedige, #price_right_3_ifsoap, #price_right_3_balcia,
+	#price_right_6_ban, #price_right_6_ergo, #price_right_6_balta, 
+	#price_right_6_gjensedige, #price_right_6_ifsoap, #price_right_6_balcia,
+	#price_right_9_ban, #price_right_9_ergo, #price_right_9_balta, 
+	#price_right_9_gjensedige, #price_right_9_ifsoap, #price_right_9_balcia,
+	#price_right_12_ban, #price_right_12_ergo, #price_right_12_balta, 
+	#price_right_12_gjensedige, #price_right_12_ifsoap, #price_right_12_balcia
+	{
+		background:none !important;
+	}
+	
+	
+	/*#divPriceban tr:first-child, #divPricebalta tr:first-child, 
+	#divPriceergo tr:first-child, #divPricegjensedige tr:first-child,
+	#divPriceifsoap tr:first-child , #divPricebalcia tr:first-child 
+	{
+		border: solid red 1px !important;
+		border-radius:20px !important;
+	}*/	
+	
+	/*#divPriceban tr.company_name_top, #divPricebalta tr.company_name_top, 
+	#divPriceergo tr.company_name_top, #divPricegjensedige tr.company_name_top,
+	#divPriceifsoap tr.company_name_top, #divPricebalcia tr.company_name_top
+	{
+		background:none !important;
+		background-color:#e9e9e9 !important;
+		aborder: solid red 1px;
+		border-radius:20px  !important;
+	}*/
+	
+	div.submit-2
+	{
+		float:left;
+		width:250px;
+	}
+
+	div.submit-2 div.left, div.submit-2 div.center, div.submit-2 div.right
+	{
+		height:26px;
+		background: linear-gradient(to bottom, #9b7920, #866b28);
+	}
+	
+	div#block div.form input#phone
+	{
+		width: 130px;
+	}
+	
+}	
+
+
+@media only screen and (min-width: 800px) 
+{
+	div.user_type_radio_div
+	{
+		float:unset;
+		margin-top:unset;
+		display:inline;
+		vertical-align:bottom;
+	}
+
+}
+
+div.user_type_radio_div label
+{
+	top:0px !important;
+}
+
+@media only screen and (max-width: 800px) 
+{
+	.contact_form_basic, .contact_form_basic table, .contact_form_basic tr, .contact_form_basic td
+	{
+		float:left;
+		width:100%;
+		box-sizing:border-box;
+	}
+	
+	#contact_form_container
+	{
+		border-radius:10px;
+		border:solid white 1px;
+	}
+	
+	#td_code
+	{
+		white-space: normal;
+	}
+	
+	#td_e_mail
+	{
+		height:auto;
+		padding-bottom:2px;
+	}
+	
+	#td_code
+	{
+		height:auto;
+		padding-bottom:2px;
+		padding-top:10px;
+	}
+	
+	#code_inp_td, #code_img_td
+	{
+		float:none;
+		padding-bottom:10px;
+	}
+	
+	
+	
+}
+
+

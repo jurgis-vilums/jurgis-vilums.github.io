@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="auto apdrosinasana,auto apdrošināšana,octa apdrošināšana,octa atlaides,octa kalkulators,octa kalkulātors,auto apdrošināšanas,octa online,transportlīdzekļa apdrošināšana,nopirkt octa,octa internetā,pirkt octa,epolise,auto apdrošināšana internetā,octa salīdzināšana,lētākā octa polise,salidzini octa,salīdzināt octa,strahovka octa,octa salidzinat,letak pasam,letaka octa apdrosinasana,kad beidzas octa,visletaka octa,octa parbaude">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--<link rel="shortcut icon" href="/favicon.ico" />-->	
+        <title>OCTA.LV - izdevīga apdrošināšana</title>
+        <link rel="stylesheet" type="text/css" media="all" href="css/style-1.css?10">
+		<style type="text/css" media="screen">@import url(css/niceforms-default-1.css);</style>
+        <!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="all" href="/css/ie.css" /><![endif]-->
+        <script src="js/main-1.php" type="text/javascript"></script>
+        <script src="js/main-1.js?9" type="text/javascript"></script>
+        <script src="js/html-1.js?8" type="text/javascript"></script>
+        <script src="scripts/css_browser_selector-1.js" type="text/javascript"></script>
+        <script src="scripts/jquery-1.3.2.min-1.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="css/jquery.datepicker-1.css">
+		<link rel="stylesheet" href="css/jquery.tooltip-1.css">
+		<script type="text/javascript" language="JavaScript" src="scripts/jquery.bgiframe-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/jquery.date-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/jquery.cookie-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/jquery.form-1.js"></script>
+		<script src="scripts/jquery.dimensions-1.js" type="text/javascript"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/jquery.tooltip.min-1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/niceforms-1.js"></script>
+		
+		<link rel="stylesheet" type="text/css" media="all" href="css/mobile-1.css?ver=8">
+		
+		<script type="text/javascript">
+		
+		var menu_opened = false;
+		
+		function hamburger_click()
+		{
+			menu_opened = !menu_opened; 
+			document.getElementById('hamburger').className='hamburger'+(menu_opened?'_clicked':'');
+			document.getElementById('menu_container').className=menu_opened?"opening":"closing";
+			/* this fails when clicking hamburger too fast - you end up in half closed menu stuck
+			
+			setTimeout(function () {
+					//after the animation we remove set the resulting height as it was set by animation 
+					//this makes menu consistent when changing browser window between desktop and phone modes
+					//otherwise last animation repeats itself when making window small again
+					document.getElementById('menu_container').style.height=getComputedStyle(document.getElementById("menu_container")).height;
+					document.getElementById('menu_container').className='';
+			}, 1100);*/
+		}
+		
+		var body_click_func = function (sender) {
+			var menu_elems_ids = Array("hamburger", "menu_container", "menu");
+			var menu_elem_classes = Array("menu_elem_a", "hamburger_rows");
+			
+			var css_classes_found = false;
+			for (var i=0; i<menu_elem_classes.length; i++)
+			{
+				if (sender.target.className.indexOf(menu_elem_classes[i]) != -1)
+				{
+					css_classes_found = true;
+				}
+			}
+			
+			//hide menu if clicked OUTSIDE the menu
+			if (menu_opened && !menu_elems_ids.includes(sender.target.id) && !css_classes_found) 
+			{
+				hamburger_click();
+			}
+		};
+		
+		
+		</script>
+		
+		
+    </head>
+
+    <body style="overflow-y:scroll;">
+	<div id="main">
+    	<div id="left">
+			<div id="hamburger" class="hamburger" onclick="hamburger_click();">
+				<div class="hamburger_rows hamburger_top_row"></div>
+				<div class="hamburger_rows"></div>
+				<div class="hamburger_rows"></div>
+			</div>		
+        	<div id="logo">
+				<a href="index.htm"><img src="img/logo-1.png" class="png" alt="OCTA.LV"></a>
+            </div>
+			         <!-- Left menu -->
+							<div id="menu_container">
+	<div id="menu">
+		<a href="index.htm" class="active menu_elem_a">Pirkt OCTA</a>
+							<a href="otxt/kas_ir_octa/index.htm" class="menu_elem_a">Kas ir OCTA</a>
+							<a href="otxt/bonusmalus/index-1.htm" class="menu_elem_a">Bonus malus</a>
+							<a href="otxt/sms_serviss/index.htm" class="menu_elem_a">Sms serviss</a>
+							<a href="otxt/atgadinajumi/index.htm" class="menu_elem_a">Atgādinājumi</a>
+							<a href="otxt/octa_pagarinasana/index.htm" class="menu_elem_a">Pagarināšana</a>
+							<a href="otxt/noteikumi/index.htm" class="menu_elem_a">Noteikumi</a>
+							<a href="otxt/parmums/index.htm" class="menu_elem_a">Par mums</a>
+				</div>
+</div>
+                    <!-- /Left menu -->
+            <div>
+            
+			
+            
+            </div>
+        </div>
+		<div class="lang">
+					<p class="css_service_links">
+					<a href="lat/index.htm" class="css_sl_lat css_active">LV</a>
+			|		<a href="rus/index.htm" class="css_sl_rus">RU</a>
+	</p>
+        </div>
+        <div id="top-right">
+		<div id="top-block">
+                <div class="cards">
+                </div>
+                
+		</div><script type="text/javascript" src="scripts/jquery.delay.js"></script>
+<script type="text/javascript" src="scripts/jquery.intervals.js"></script>
+<script type="text/javascript" src="scripts/classy.js"></script>
+<script type="text/javascript" src="scripts/countdown.class.js"></script>
+<script type="text/javascript">
+<!--
+jQuery(function($) {
+	$("#f_1_1").focus();
+	$("#f_1_1").val($.cookie('default_auto_number') ? $.cookie('default_auto_number') : "" );
+	$("#f_1_2").val($.cookie('default_cert_number') ? $.cookie('default_cert_number') : "" );
+//	period = $.cookie('default_period') ? $.cookie('default_period') : 3; 
+//	$("#f_1_3").val(period);
+	
+	
+});
+
+
+$(document).ready(function () {
+
+	
+	$('#errorMessage').fadeOut('fast', function () {
+ 	$('#errorMessage').fadeIn('fast', function () {
+		 $('#errorMessage').fadeOut('fast', function () {
+		 	$('#errorMessage').fadeIn('fast', function () {
+ $('#errorMessage').fadeOut('fast', function () {
+ 	$('#errorMessage').fadeIn('fast', function () {
+		 $('#errorMessage').fadeOut('fast', function () {
+		 	$('#errorMessage').fadeIn('fast', function () {
+		 	
+		 	});
+		      });
+		  });    
+ 	
+      });
+		 	
+		 	});
+		      });
+		  });    
+ 	
+      });
+
+	
+	$("#mf_1").val($.cookie('a_num') ? $.cookie('a_num') : "" );
+	$("#mf_2").val($.cookie('a_cert') ? $.cookie('a_cert') : "" );
+		
+	var counter = new Countdown($('.countdown'),{counter: 138652219, animateSpeed: 4000, animateShortDelay: 3});
+	$('.countdown').at_intervals(function(){
+		$.ajax({
+		  url: "/ajax/countdown/",
+		  cache: false,
+		  success: function(html){
+		    counter.goToLow(html);
+		  }
+		});
+
+	}
+	, { delay: 10000, name: 'at_ajax'}, this);
+
+});
+
+//-->
+</script>
+           <!-- Content -->
+            <div id="path">
+            	<div class="type-2">
+					<div class="part-1">1. Piedāvājuma izvēle</div>
+					<div class="part-2">2. Noformēšana</div>
+					<div class="part-3">3. Apmaksa</div>
+                </div>
+            </div>
+            <div id="content">
+            	<div id="calculator">
+                	<div class="padder">
+	                	<div class="title">OCTA apdrošināšanas kalkulators</div>
+                        <form action="/octa/step2/" method="get" id="calcForm" name="frm">
+                            <table class="caps">
+                                <tr>
+                                    <td>
+                                        <div class="caption">Auto numurs: <span style="color: red;">*</span></div>
+                                        <input class="upper" type="text" value="" name="auto_number" id="mf_1" style="width: 250px;">
+                                    </td>
+                                    <td>
+                                        <div class="caption">Tehniskās pases numurs: <span style="color: red;">*</span></div>
+                                        <input class="upper" type="text" value="" name="cert_number" id="mf_2" style="width: 250px;">
+                                    </td>
+                                </tr>
+                            </table>
+                        <div class="your">
+                        	
+                        </div>
+                        <div id="btns_frm" class="submit-1" onclick="$('#calcForm').submit();" style="cursor: pointer;">
+                        	<div class="left"></div>
+	                        <div class="center"><input type="submit" value="Aprēķināt" onclick="$('#calcForm').submit();"></div>
+                            <div class="right"></div>
+                        </div>
+                        
+						<span id="c_box_frm" class="middle" style="font-family: arial; line-height: 30px; margin-left: 5px;">
+							<input id="cb_pd" name="privdata" value="1" class="radio" type="checkbox" onclick="
+									if( !this.checked ) return true;
+									var el = document.getElementById( 'privdata_text' );
+									if( el.style.display != 'none' ) return;
+									_expand( el, false );
+									return false;
+								"> <label for="cb_pd" style="color: inherit;">Priekrītu personas datu apstrādes nosacījumiem</label>
+						</span>
+						
+                        </form>
+                    </div>
+                </div>
+                
+                                
+                <div class="nobold" style="margin: 20px 0px; display: none;" id="privdata_text">
+					<div style="width: 500px;">
+						Lai saņemtu aktuālus un izdevīgākus apdrošināšanas piedāvājumus, OCTA.LV nodos Klienta datus aprēķinu veikšanai apdrošināšanas sabiedrībām.
+						<a href="pdf/Privatuma_Politika_2019-5-16-1.pdf" target="_blank"><b>Precīzāk</b></a>
+					</div>
+				</div>
+                
+                                
+                <div id="big-block">
+                	<div class="element" id="big-block-car">
+						<div id="big-block-car-img"><img src="img/green-car.png"></div>
+                    	<div class="title">Pērciet izdevīgi!</div>
+                    	<div class="text">
+                        	Izvēlaties labāko cenu starp visiem Apdrošinātājiem un pērciet tūlīt!
+                        </div>
+                    </div>
+                	<div class="element" id="big-block-clock">
+						<div id="big-block-clock-img"><img src="img/green-clock.png"></div>
+                    	<div class="title">Pērciet online!</div>
+                    	<div class="text">
+                        	Pie mums polises ir pieejamas 24 stundas diennaktī 7 dienas nedēļā!
+                        </div>
+                    </div>
+                	<div class="element" id="big-block-hand">
+						<div id="big-block-hand-img"><img src="img/green-hand.png"></div>
+                    	<div class="title">Saņem vairāk</div>
+                    	<div class="text">
+                        	Kļūstiet par mūsu klientu un saņemsiet atlaides un bonusus nākamajiem pirkumiem.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Content --></div>
+        <div class="clear"></div>
+        <div id="footer" style="padding-left:0px; height:60px">
+			  <div class="FLeft" style="margin-left:2px; margin-right:35px; font-size:10px">
+        	Pakalpojumu nodrošina
+                
+					<a style="margin-left: 20px; display: none;">Paziņot par kļūdu</a>
+					<br> Apdrošināšanas darbnīca<br>
+					V1.3, 13.07.2022<br>
+					
+					
+					<a href="pdf/S%C4%ABkdat%C5%86u_politika_AD_2019-5-16_upd-1.pdf" target="_blank">Sīkdatņu politika</a>
+					 | 
+					<a href="pdf/Privatuma_Politika_2019-5-16-1.pdf" target="_blank">Privātuma politika</a>
+					
+					<br>
+					<!-- puls.lv START //-->
+					<div id="_puls.lv_23245" style="display:inline-block;"></div>
+					<script type="text/javascript">var _puls_counter_id = 23245;</script>
+					<script async="" src="//hits.puls.lv/?sid=23245&js=1" type="text/javascript"></script>
+					<noscript>
+					<a href="http://puls.lv/" target="_blank"><img src="//hits.puls.lv/?sid=23245&jsver=0" border="0" alt="PULS.LV Professional rating system"></a>
+					</noscript>
+					<!-- puls.lv END //-->
+					
+					<!-- europuls.eu START //-->
+					<div id="_europuls.eu_4523" style="display:inline-block;"></div>
+					<script type="text/javascript">var _europuls_counter_id = 4523;</script>
+					<script async="" src="//hits.europuls.eu/?sid=4523&js=1" type="text/javascript"></script>
+					<noscript>
+					<a href="http://europuls.eu/" target="_blank"><img src="//hits.europuls.eu/?sid=4523&jsver=0" border="0" alt="Europuls.eu - Catalog of the European Internet resources"></a>
+					</noscript>
+					<!-- europuls.eu END //-->
+				
+				</div>
+				<div class="FLeft" style="margin-bottom:10px; margin-right:30px; height:60px">
+					<a href="feedback/index.htm">Atstāt atsauksmi</a>
+				</div>	
+				<div class="FLeft" style="margin-top: 2px;height:60px">
+					<img alt="Visa" src="img/visa-1.jpg">
+					<!--<img alt="Visa Electron" src="/img/klikelectron.gif"/>-->
+					<img alt="Maestro" src="img/maestro-1.jpg">
+					<img alt="MasterCard" src="img/mastercard-1.jpg">
+					<img alt="Swedbank" src="img/ps_3-1.gif">
+					
+					<img alt="SEB" src="img/seb2-1.png">
+					<img alt="Citadele" src="img/citadele_logo-1.gif" width="91" height="24">
+					<img alt="Luminor (Nordea/DnB)" src="img/luminor_2-1.png" width="78" height="24">
+					
+				</div>				
+        </div>
+    </div>
+    <div id="stylesheetTest"></div> 
+
+<!--cookie==============[-->
+<style>
+#cookie_policy { background-color: rgba(80,80,80,.9); position: fixed; z-index: 1000; bottom: 0px; left: 0px; width: 100%; text-align: center; }
+#cookie_policy > div { display: inline-block; margin: 40px 0px; max-width: 760px; text-align: left; }
+#cookie_policy > div, #cookie_policy > div * { color: white; font-size: 16px; letter-spacing: 2px; }
+</style>
+<div style="display: none;" id="cookie_policy">
+	<div border="0" cellpadding="0" cellspacing="0" style="">
+		<div class="submit-1" onclick="_cookie_policy(true);" style="cursor: pointer; float: right; margin: 0px 0px 10px 10px;">
+			<div class="left"></div>
+			<div class="center">
+				<input style="font-weight: normal;" type="submit" value="Piekrītu" onclick="_cookie_policy(true); event.cancelBubble = true; return false;">
+			</div>
+			<div class="right"></div>
+		</div>
+		<script>
+		(function(){
+			var txt = 'Mēs izmantojam sīkdatnes, lai nodrošinātu jums ērtāku un drošāku lietošanas pieredzi. Turpinot pārlūka sesiju vai nospiežot pogu "Piekrītu", jūs apstiprināt, ka piekrītat izmantot sīkdatnes. Jūs varat atcelt savu piekrišanu jebkurā laikā, mainot pārlūka iestatījumus un izdzēšot saglabātās sīkdatnes. Iepazīstieties ar mūsu :LINK:sīkdatņu izmantošanas politiku:LINK:.';
+			txt = txt.replace( /:LINK:(.+):LINK:/, '<a href="/pdf/Sīkdatņu_politika_AD_2019-5-16_upd.pdf" target="_blank"><b>$1</b></a>' );
+			document.write( txt );
+		})();
+		</script>
+	</div>
+</div>
+<script>
+_cookie_policy();
+function _cookie_policy(accept) {
+	var policy_name = 'cookie_policy';
+	var policy_ver = 1;
+	if( accept == null ) accept = (new RegExp( policy_name+'='+policy_ver )).test( document.cookie );
+	
+	document.getElementById( 'cookie_policy' ).style.display = accept ? 'none' : '';
+	if( accept ) setcookie( policy_name, policy_ver, strtotime( '+10 years' ) );
+}
+</script>
+<!--=================]-->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11352935-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<div id="phone_mode_indicator"></div>
+<script type="text/javascript">
+
+var evnt_func = function () {
+
+	var btn = document.getElementById("btns_frm");
+	var c_box = document.getElementById("c_box_frm");
+		
+	if (typeof btn != "undefined" && typeof c_box != "undefined" && btn != null && c_box != null)
+	{
+		if (getComputedStyle(document.getElementById("phone_mode_indicator")).left == "10px")
+		{
+			btn.parentNode.insertBefore(c_box, btn);
+		}
+		else if (getComputedStyle(document.getElementById("phone_mode_indicator")).left == "100px")
+		{
+			btn.parentNode.insertBefore(c_box, btn.nextSibling);
+		}
+	}
+
+};
+
+window.addEventListener("load", evnt_func);
+window.addEventListener("resize", evnt_func);
+window.document.body.addEventListener("click", body_click_func);
+
+</script>
+      	</body>
+</html>
